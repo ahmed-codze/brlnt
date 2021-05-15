@@ -9,8 +9,141 @@
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/services.css">
 </head>
-<body>
-    
+<body dir="rtl">
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top" style="background-color: #151515;" dir="ltr">
+        <div class="container d-flex align-items-center justify-content-lg-between">
+
+            <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo2.png" alt="" style="width: 60px;" class="img-fluid"></a>
+
+            <a class="nav-link scrollto " href="index.html" style="color: #ffc451;">الرئيسية</a>
+
+        </div>
+    </header>
+    <!-- End Header -->
+
+
+    <!-- content -->
+     
+    <div class="services ">
+        <div class="container">
+            <h3 class="text-center"> طلبات الخدمة</h3>
+            <br>
+            <form method="POST" action="" id="form" enctype="multipart/form-data" >
+                <div class="row">
+                    <div class="form-group col-md-6">
+                        <label for="name">ادخل اسمك ثلاثي</label>
+                        <input name="name" type="text" class="form-control" id="name" placeholder="اسمك" required="required">
+                    </div>
+
+                    <div class="form-group col-md-6">
+                        <label for="phone">ادخل رقم الهاتف للتواصل معكم</label>
+                        <input name="phone" type="text" class="form-control" id="phone" placeholder="رقمك" required="required">
+                    </div>
+
+                    <div class="form-group col-md-6">
+                        <label for="email">ادخل موقع البناء </label>
+                        <input name="place" type="text" class="form-control" id="place" placeholder="موقع البناء"  required="required">
+                    </div>
+
+                    <div class="form-group col-md-6">
+                        <label for="service">نوع الخدمة المطلوبه</label>
+                        <select class="form-control" id="service" name="service"  required="required" >
+                            <option selected="" disabled="" value="" > اختر الخدمه </option>
+
+                            <option  value=" تصميم سكتش مبدئي " >
+                                 تصميم سكتش مبدئي  
+                            </option>
+
+                            <option  value=" تصميم انشائي وحساب الكميات" >
+                                تصميم انشائي وحساب الكميات
+                            </option>
+
+                            <option  value=" مراجعة الخرائط وتخفيض نسبة الحديد" >
+                                مراجعة الخرائط وتخفيض نسبة الحديد
+                           </option>
+
+                           <option  value="تصميم داخلي" >
+                              تصميم داخلي
+                            </option>
+
+                            <option  value="تصميم الواجهات الخارجية " >
+                                تصميم الواجهات الخارجية
+                            </option>
+
+                            <option  value="تصميم الحدائق" >
+                                تصميم الحدائق
+                           </option>
+
+                           <option  value=" رفع مخططات داخلية مع الاثاث " >
+                                رفع مخططات داخلية مع الاثاث 
+                            </option>
+                            <option  value="تصميم المطابخ " >
+                                تصميم المطابخ
+                            </option>
+
+
+
+                            
+
+
+
+                            
+                        </select>
+                    </div>
+
+                    <div class="form-group col-md-6">
+                        <label for="plan">نوع  الباقه</label>
+                        <select class="form-control" id="plan" name="plan"  required="required" >
+                            <option selected="" disabled="" value="" > اختر الباقه </option>
+                            <option  value=" باقه بلاتينية" >
+                                باقه بلاتينية
+                            </option>
+
+                            <option  value="  باقه ذهبيه  " >
+                                باقه ذهبيه
+                            </option>
+
+                            
+                        </select>
+                    </div>
+
+
+                    <div class="form-group col-md-6">
+                        <label for="file">ارفع ملف الكروكي</label>
+                        <input type="file"  name="file" id="file" class="form-control-file" required="required" 
+                            accept=".pdf, .doc, .docx, .jpeg , .dwg , .jpg">
+                            <p style="margin-top: 10px;">نستقبل الملفات الاتية : pdf , jpeg , dwg </p>
+                        </div>
+
+                    <div class="form-group col-md-6">
+                        <label for="file">ارفع ملف الملكيه</label>
+                        <input type="file"  name="file" id="file" class="form-control-file" required="required" 
+                            accept=".pdf, .doc, .docx, .jpeg , .dwg , .jpg">
+                        <p style="margin-top: 10px;">نستقبل الملفات الاتية : pdf , jpeg , dwg </p>
+                    </div>
+
+                </div>
+
+
+
+                <div class="form-group text-center" style="margin: 20px;">
+                    <button class="btn submit" style="background-color: #ffc451;" type="submit" >ارسل البيانات</button>
+                    <p style="margin-top: 10px;">سيتم التواصل معكم في اقرب وقت ممكن  </p>
+                </div>
+
+
+            </form>
+
+        </div>
+    </div>
+
+
+    <!-- end content -->
+
+
+
+
 
     <script src="/assets/js/jquery.min.js"></script>
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
