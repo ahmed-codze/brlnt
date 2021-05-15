@@ -542,8 +542,13 @@
 
         <div class="credits">
           
-          &copy; 
-          حقوق الملكيه 2021  شركه برلنت  
+          <div class="row">
+            <div class="col-lg-12">
+                <p class="copyright">حقوق ملكيه &copy; 2021 شركه برلنت <br> <p></p></p>
+                <p class="politics text-center" style="color: #ffc451; padding: 0 0 20px; cursor: pointer;">سياسة الخصوصية</p>
+                <p class="politics-txt d-none">احتاج سياسة الخصوصية                 </p>
+            </div>
+        </div>
         </div>
     </div>
   </footer><!-- End Footer -->
@@ -557,9 +562,44 @@
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="/assets/js/jquery.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+
 
   <!--   Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <script>
+          $('.main-button').click(function () {
+          Swal.fire({
+          title: 'لطلب الباقة يرجى التواصل معنا واتساب',
+          showDenyButton: true,
+          confirmButtonText: `تواصل عبر الواتساب`,
+          denyButtonText: `الغاء`,
+          }).then((result) => {
+            
+            if (result.isConfirmed) {
+                alert("احتاج رقم الواتس")
+                // window.location.replace('https://wa.me/+96894252504');
+            }
+            
+              })
+            })
+
+            $('.politics').click (function () {
+            Swal.fire({
+            title: 'سياسة الخصوصية وملفات تعريف الارتباط (الكوكيز)',
+            text: $('.politics-txt').html(),
+            showClass: {
+            popup: 'animate__animated animate__fadeInDown'
+            },
+            hideClass: {
+              popup: 'animate__animated animate__fadeOutUp'
+            }
+                })
+            })
+  </script>
 
 </body>
 
