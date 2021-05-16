@@ -425,7 +425,7 @@ a:hover {
   color: rgba(255, 255, 255, 0.9);
   margin: 10px 0 0 0;
   font-size: 24px;
-  color: #ffc451;
+  color: #95bb47;
 }
 
 #hero .icon-box {
@@ -439,7 +439,7 @@ a:hover {
 #hero .icon-box i {
   font-size: 32px;
   line-height: 1;
-  color: #ffc451;
+  color: #95bb47;
 }
 
 #hero .icon-box h3 {
@@ -566,8 +566,7 @@ section {
   margin-bottom: 0;
 }
 
-.about .us p {
-  /* font-weight: 599; */
+/* .about .us p {
   font-size: 18px;
   text-align: center;
   margin: 10px;
@@ -575,7 +574,7 @@ section {
 
 .about .us span {
   color: #0064ff;
-}
+} */
 
 
 /*--------------------------------------------------------------
@@ -594,7 +593,7 @@ section {
   margin: 0 auto;
   width: 64px;
   height: 64px;
-  background: #ffc451;
+  background: #95bb47;
   border-radius: 4px;
   display: flex;
   align-items: center;
@@ -629,6 +628,7 @@ section {
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
+  color: #000;
 }
 
 .services .icon-box:hover {
@@ -708,7 +708,7 @@ section {
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
   color: #151515;
-  background: #ffc451;
+  background: #95bb47;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -894,13 +894,7 @@ pricing
   color: #1e1e1e;
 }
 
-.pricing-item.active .pricing-body .price-wrapper {
-  background-color: #ff589e;
-}
 
-.pricing-item.active .pricing-body .price-wrapper .currency {
-  color: #fff;
-}
 
 .pricing-item.active .pricing-body .price-wrapper .price {
   color: #fff;
@@ -918,8 +912,7 @@ pricing
 }
 
 .pricing-item .pricing-header .pricing-title {
-  /* font-weight: 500; */
-  font-size: 17px;
+  font-size: 25px;
   letter-spacing: 0.25px;
   color: #1e1e1e;
   width: 180px;
@@ -938,7 +931,7 @@ pricing
   text-align: center;
   padding-top: 20px;
   padding: 13px;
-  background: #ffbb38;
+  background: #95bb47;
   width: 80%;
   margin: auto;
   margin-bottom: 40px;
@@ -946,41 +939,28 @@ pricing
   border-radius: 20px;
 }
 
-.pricing-item .pricing-body .price-wrapper .currency {
-  height: 47px;
-  /* font-weight: 500; */
-  font-size: 32px;
-  color: #fff;
-  position: relative;
-  top: -1px;
-}
+
 
 .pricing-item .pricing-body .price-wrapper .price {
-  /* font-weight: 500; */
   font-size: 28px;
   color: #fff;
 }
 
 .pricing-item .pricing-body .price-wrapper .period {
-  /* font-weight: 400; */
   font-size: 14px;
   color: #fff;
   display: block;
-  letter-spacing: 0.88px;
 }
 
 .pricing-item .pricing-body .list li {
   text-align: center;
   margin-bottom: 12px;
-  /* font-weight: 400; */
-  font-size: 13px;
-  color: #7a7a7a;
+  font-size: 18px;
   letter-spacing: 0.25px;
   text-decoration: line-through;
 }
 
 .pricing-item .pricing-body .list li.active {
-  color: #7a7a7a;
   text-decoration: none;
 }
 
@@ -991,8 +971,8 @@ pricing
 
 .main-button{
   color: #151515;
-  background-color: #ffc451;
-  padding: 15px;
+  background-color: #95bb47;
+  padding: 12px;
   border-radius: 5px;
 }
 
